@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS usuario;
+DROP TABLE IF EXISTS contato;
+
+CREATE TABLE usuario(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    email TEXT NOT NULL,
+    senha TEXT NOT NULL,
+    nome TEXT NOT NULL,
+    biografia TEXT
+);
+
+CREATE TABLE contato(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    intimidade INTEGER NOT NULL,
+    idUsuario INTEGER NOT NULL,
+);
+CREATE TABLE formaContato(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    forma TEXT, /* FACE, WHATS, SITE, TELEFONE */
+    descricao TEXT,
+    idContato INTEGER NOT NULL
+);
