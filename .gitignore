@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# arquivo drawio.bkp
+.$DiagramaContatin.drawio.bkp
+
+# arquivos do editor
+.vscode/

@@ -10,3 +10,6 @@ Será o contato de um usuário, este terá um id, nome, nível de intimidade com
 
 ## Forma de contato
 Será uma das formas que o usuário terá para encontrar o contato, este terá um id, forma (que é a forma de contato propriamente dita, como um telefone, email, facebook, whatsapp, etc), uma descrição (que deverá ser o numero do telefone, link do face, etc) e o id do contato
+
+## Diagrama de classes:
+![CLasses do projeto](https://github.com/boirods/contatim/blob/main/DiagramaContatin.png)
